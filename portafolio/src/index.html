@@ -10,53 +10,97 @@
 </head>
 <body class="dark:bg-slate-900">
   <div class="container min-h-screen">
-    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="#" id="logo" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="./img/LOGO.png" class="h-8" alt=" Logo">
-          <span id="colorLogo"class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-xl font-extrabold">LuisFerCoder</span>
-      </a>
-      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <label id="mode" for="darkmode">
-          <svg class="h-6 w-6 text-sky-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
-          </svg>
-        </label>
-        <input type="checkbox" id="darkmode" class="hidden">
-      </div>
-      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="index.html" class=" active block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page" >Home</a>
-            <button>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          </li>
-          <li>
-            <a href="./aboutME.html" class="  block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" >About Me</a>
-          </li>
-          <!-- <li>
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 ">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="#"
+          id="logo"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="./img/LOGO.png" class="h-8" alt=" Logo" />
+          <span
+            id="colorLogo"
+            class=" font-serif bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-xl font-extrabold"
+            >LuisFerCoder</span
+          >
+        </a>
+        <div
+          class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+        >
+          <label id="mode" for="darkmode">
+            <svg
+              class="h-6 w-6 text-sky-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          </label>
+          <input type="checkbox" id="darkmode" class="hidden" />
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4  border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 font-serif text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./aboutME.html"
+                class="block py-2 px-3 font-serif text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About </a
+              >
+            </li>
+            <!-- <li>
             <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
           </li> -->
-          <li>
-            <a href="projects.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
-          </li>
-        </ul>
-      </div>
+            <li>
+              <a
+                href="projects.html"
+                class="block py-2 px-3 font-serif text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class=" grid lg:grid-cols-2 md:grid-cols-1 gap-5">
-           <div class=" mx-10 mt-36 max-w-2xl text-zinc-950 dark:text-gray-50">
-        <h1 class="text-6xl font-extrabold dark:text-white leading-none tracking-tight text-gray-900">LUIS FERNANDO</h1>
-        <h2 class="mb-12 text-6xl font-extrabold leading-none  tracking-tight text-center text-gray-700 dark:text-gray-100">CRUZ AGUILAR</h2>
-        <h3 class="mb-2 text-xl text-center font-semibold  text-gray-600 dark:text-gray-300">SOFTWARE DEVELOPER </h3>
-        <p class="font-sans text-justify px-5">I'm a Software Developer with a passion for expanding expertise in HTML, CSS, and JavaScript, while also eager to learn additional programming languages. Committed to leveraging these foundational skills to make a tangible impact in real-world scenarios. A lifelong learner, I thrive in collaborative environments where I can contribute to innovative solutions. My innate problem-solving abilities fuel my creativity and determination, empowering me to overcome challenges with ingenuity and perseverance. </p>
-         </div>
-         <div class="mt-20">
-          <img  class=" size-min    rounded-t-lg" src="./img/Carrusel/pexels-anete-lusina-5240545.jpg" alt="background">
-         </div>
+
+    <!-- <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-5""> -->
+      <div class="">
+        <div class=" mx-10 mt-20 ">
+     <!-- <h1 class="text-4xl font-extrabold dark:text-white leading-none tracking-tight text-gray-900"> </h1> -->
+     <h2 class="mb-3 mt-4 text-6xl font-serif font-bold leading-none  tracking-tight text-center text-slate-900 dark:text-gray-300"> Hello, I'm <span class="text-rose-600 text-7xl dark:text-violet-600"> Fer!</span></h2>
+     <h3 class="font-serif object-bottom text-xl text-center font-semibold  text-neutral-500 dark:text-gray-500">SOFTWARE DEVELOPER</h3>
+     <!-- <p class="font-sans text-justify px-5">I'm a Software Developer with a passion for expanding expertise in HTML, CSS, and JavaScript, while also eager to learn additional programming languages. Committed to leveraging these foundational skills to make a tangible impact in real-world scenarios. A lifelong learner, I thrive in collaborative environments where I can contribute to innovative solutions. My innate problem-solving abilities fuel my creativity and determination, empowering me to overcome challenges with ingenuity and perseverance. </p>
+      </div>   -->
+      <div class=" flex items-center justify-center">
+       <img src="./img/me3.webp" class="rounded-2xl" >
+      </div>
+      <!-- <div class="flex items-center justify-center  bg-[url('./img/me2.webp')] bg-cover hover:bg-[url('./img/me.webp')]  transition-all duration-150">
+        <img src="./img/me.webp"> 
+        <img src="./img/me2.webp"> 
+      </div> 
+       <div class="mt-20">
+       <img  class=" size-min    rounded-t-lg" src="./img/Carrusel/pexels-anete-lusina-5240545.jpg" alt="background">
+      </div> -->
+ <!-- </div> -->
     </div>
+
 
     </div>
 
