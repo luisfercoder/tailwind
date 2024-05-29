@@ -7,16 +7,11 @@ darkModeInput.addEventListener('click',mode)
 function mode(e){
   let checked = e.target.checked;
  document.documentElement.classList.toggle('dark');
-
-  // if(checked){
-  //  document.documentElement.classList.toggle('dark');
-  //   colorLogo.classList.add('bg-clip-text','text-transparent','bg-gradient-to-r', 'from-indigo-500' ,'from-10%', 'via-purple-500' ,'via-30%' ,'to-pink-500' ,'to-90%' ,'text-xl','font-extrabold'); 
-  //  }else{
-  //   colorLogo.classList.remove('bg-clip-text','text-transparent','bg-gradient-to-r', 'from-indigo-500' ,'from-10%', 'via-purple-500' ,'via-30%' ,'to-pink-500' ,'to-90%' ,'text-xl','font-extrabold');
-  //  }
-  
-
    }
+function menu(e){
+  let list = document.querySelector('ul');
+  e.name==='menu'?(e.name ='close',list.classList.add('top-[80px]'),classList.add('opacity-100')):(e.name = 'menu',list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+}
 
 
 
